@@ -16,8 +16,21 @@ Sumaras puntos por cada enemigo que mates hasta que acumules los suficientes par
 
 0.0.3: Incorporación del personaje principal y sus respectivas habilidades.
 
+0.0.4: Incorporacion de enemigos y sus respectivas habilidades.
 
+0.0.5: Incorporacion de un fondo personalizado desarrolado con TILED.
 
+0.0.6: Incorporacion de un contador de puntuacion.
+
+0.0.7: Correccion de bugs relacionada con los personajes.
+
+0.0.8: Incorporacion del jefe final.
+
+0.0.8: Habilidades personalizadas para el jefe final.
+
+0.0.9: Incorporacion de una barra de salud personalizada para el jefe final.
+
+0.0.10: Chequeo final del codigo en busca de posibles fallos.
 
 
 
