@@ -9,7 +9,8 @@ Sumaras puntos por cada enemigo que mates hasta que acumules los suficientes par
 
 ##Actualizaciones
 
-0.0.1: Menú completo, que incluye 5 botones que constan de: "Iniciar Juego", "Como Jugar", "Personajes", "Opciones" y           "Salir".
+0.0.1: Menú completo, que incluye 5 botones que constan de: "Iniciar Juego", "Como Jugar", "Personajes", "Opciones" y 
+       "Salir".
 
 0.0.2: Incorporación de personajes y arreglo de bugs menores e incorporación de un boton de "Regreso", en el menú.
 
