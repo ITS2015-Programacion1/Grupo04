@@ -1,5 +1,5 @@
 #Desarrollo del videojuego:
-##Versión actual: 0.0.3
+##Versión actual: 0.0.9
 
 ##Historia
 
