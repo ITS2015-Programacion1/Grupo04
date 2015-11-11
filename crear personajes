@@ -1,0 +1,10 @@
+class variable(pilasengine.actores.Actor):   
+
+        def iniciar(self):                                                       
+            self.imagen = "variable.png"
+            self.x = 0
+            self.y =-8
+            self.escala = 0.3    
+
+    pilas.actores.vincular(varible)
+    variable = pilas.actores.variable()
