@@ -24,13 +24,6 @@ Sumaras puntos por cada enemigo que mates hasta que acumules los suficientes par
 
 0.0.7: Correccion de bugs relacionada con los personajes.
 
-0.0.8: Incorporacion del jefe final.
-
-0.0.8.1: Habilidades personalizadas para el jefe final.
-
-0.0.8.2: Incorporacion de una barra de salud personalizada para el jefe final.
-
-0.0.9: Chequeo final del codigo en busca de posibles fallos.
 
 
 
