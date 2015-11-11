@@ -58,7 +58,7 @@ def iniciar_juego():
         bala.eliminar()
         enemigo.eliminar()
 
-    def cuando_colisona(enemigos, pizarra):
+    def cuando_colisiona(enemigos, pizarra):
         soldado.eliminar()
         ak.eliminar()
         enemigos.eliminar
