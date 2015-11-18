@@ -1,22 +1,24 @@
 # coding: utf-8
+#importar todos los archivos del juego para ejecutarlos en uno solo
 import pilasengine
 from clases_actores import Arma_Ak47, Soldado, MiMunicion, Enemigo
 import random
-from iniciar_juego import alazar, juegoactivo
+from iniciar_juego import Alazar
 
     
 pilas = pilasengine.iniciar()
 
-
+#vincular los actores que estan en otro archivo
 pilas.actores.vincular(Arma_Ak47)
 pilas.actores.vincular(Soldado)
 pilas.actores.vincular(MiMunicion)
 pilas.actores.vincular(Enemigo)
 
+#crear la primera escena
 class inicio(pilasengine.escenas.Escena):
     
     def inciar(self):
-        self.fondo = self.pilas.fondos.Fondo("ghost.jpeg") 
+        self.fondo = self.pilas.fondos.Fondo("ghost.jpg") 
         pass
 
 
@@ -24,7 +26,7 @@ pilas.escenas.vincular(inicio)
 pilas.escenas.inicio()
 
 
-def como_jugar():
+def Como_jugar():
 
     boton3 = pilas.interfaz.Boton("regresar")
     boton3.y = 210

@@ -1,7 +1,7 @@
 # coding: utf-8
 import pilasengine
 
-
+#crear los actores principales
 class Arma_Ak47(pilasengine.actores.Actor):
 
     def iniciar(self, pilas, x=0, y=0):
@@ -35,7 +35,7 @@ class Soldado(pilasengine.actores.Actor):
 
 	self.radio_de_colision = 35
 
-
+#crear los actores que corresponden a los enemigos
 class Enemigo(pilasengine.actores.Actor):   
 
     def iniciar(self, img_enemigo='enemigo1.png', y=0):                                                       
@@ -48,7 +48,7 @@ class Enemigo(pilasengine.actores.Actor):
 	self.radio_de_colision = 37
 
 
-class enemigo2(pilasengine.actores.Actor):   
+class Enemigo2(pilasengine.actores.Actor):   
 
     def iniciar(self):                                                       
         self.imagen = "enemigo2.png"
@@ -57,7 +57,7 @@ class enemigo2(pilasengine.actores.Actor):
         self.escala = 0.3    
 
 
-class enemigo3(pilasengine.actores.Actor):   
+class Enemigo3(pilasengine.actores.Actor):   
 
     def iniciar(self):                                                       
         self.imagen = "enemigo3.png"
@@ -66,7 +66,7 @@ class enemigo3(pilasengine.actores.Actor):
         self.escala = 0.3    
 
 
-class enemigo4(pilasengine.actores.Actor):   
+class Enemigo4(pilasengine.actores.Actor):   
 
     def iniciar(self):                                                       
         self.imagen = "enemigo4.png"
