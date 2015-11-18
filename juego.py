@@ -3,7 +3,7 @@
 import pilasengine
 from clases_actores import Arma_Ak47, Soldado, MiMunicion, Enemigo
 import random
-from iniciar_juego import Alazar
+from iniciar_juego import Alazar, Juegoactivo
 
     
 pilas = pilasengine.iniciar()
